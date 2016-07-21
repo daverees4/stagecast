@@ -10,7 +10,8 @@ body {
 }
 
 #titlerow {
-  background-color: #505050;
+ background-color: #0a0a0a;
+ border: 1px solid white;
 }
 
 .flex-video {
