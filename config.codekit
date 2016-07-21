@@ -3942,6 +3942,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/img\/page_background.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161750,
+		"inputAbbreviatedPath": "\/css\/img\/page_background.jpg",
+		"outputAbbreviatedPath": "\/css\/img\/page_background.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/css\/img\/play_white.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3949,6 +3960,17 @@
 		"initialSize": 3679,
 		"inputAbbreviatedPath": "\/css\/img\/play_white.png",
 		"outputAbbreviatedPath": "\/css\/img\/play_white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/css\/img\/poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 301805,
+		"inputAbbreviatedPath": "\/css\/img\/poster.jpg",
+		"outputAbbreviatedPath": "\/css\/img\/poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3963,28 +3985,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/img\/page_background.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 161750,
-		"inputAbbreviatedPath": "\/img\/page_background.jpg",
-		"outputAbbreviatedPath": "\/img\/page_background.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/poster.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 301805,
-		"inputAbbreviatedPath": "\/img\/poster.jpg",
-		"outputAbbreviatedPath": "\/img\/poster.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
