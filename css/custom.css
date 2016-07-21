@@ -1,6 +1,6 @@
 body {
   font-size:15px;
-  background:url('img/page_background.jpg') no-repeat fixed center top #101010;
+  background:url('img/page_background2.png') no-repeat fixed center top #101010;
 }
 
 .row {
@@ -11,7 +11,7 @@ body {
 
 #titlerow {
  background-color: #0a0a0a;
- border: 1px solid white;
+ border: 1px solid #fefefe;
 }
 
 .flex-video {
@@ -363,4 +363,4 @@ body {
  .flowplayer .fp-progress { background-color: rgba(255, 201, 0, 1)}
  .flowplayer .fp-buffer { background-color: rgba(249, 249, 249, 1)}
  .flowplayer { background-image: url("img/poster.jpg")}
- .flowplayer .fp-volumelevel {background-color: #ffc900;}
+ .flowplayer .fp-volumelevel {background-color: #ea875d;}

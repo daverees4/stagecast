@@ -3953,6 +3953,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/css\/img\/page_background2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 728323,
+		"inputAbbreviatedPath": "\/css\/img\/page_background2.png",
+		"outputAbbreviatedPath": "\/css\/img\/page_background2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/css\/img\/play_white.png": {
 		"fileType": 32768,
 		"ignore": 0,
