@@ -1,6 +1,6 @@
 $(document).foundation();
 
-flowplayer(function(api, root){
+flowplayer(function(api){
     $('#chapter1').on('click', function() {
       api.seek(90.5);
       api.play();
@@ -21,4 +21,4 @@ flowplayer(function(api, root){
       api.seek(1023);
       api.play();
     });
-})
+});
