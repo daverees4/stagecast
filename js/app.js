@@ -27,3 +27,7 @@ flowplayer(function(api){
       $("html, body").animate({ scrollTop: 0 }, "slow");
     });
 });
+
+$(document).ready(function() {
+  $("#owl-slider").owlCarousel();
+});
