@@ -366,13 +366,12 @@ body {
 .no-time.flowplayer.play-button .fp-timeline,.aside-time.flowplayer.play-button .fp-timeline{margin-left:27px;}
 .is-rtl.no-time.flowplayer.play-button .fp-timeline,.is-rtl.aside-time.flowplayer.play-button .fp-timeline{margin-right:27px}
 
- .flowplayer { width: 100%; background-color: #222; background-size: cover; }
  .flowplayer .fp-controls { background-color: rgba(0, 0, 0, 0.4)}
  .flowplayer .fp-timeline { background-color: rgba(0, 0, 0, 0.5)}
- .flowplayer .fp-progress { background-color: rgba(255, 201, 0, 1)}
+ .flowplayer .fp-progress,  .flowplayer .fp-volumelevel { background-color: rgba(255, 201, 0, 1)}
  .flowplayer .fp-buffer { background-color: rgba(249, 249, 249, 1)}
  .flowplayer { background-image: url("img/poster.jpg")}
- .flowplayer .fp-volumelevel {background-color: #ea875d;}
+
  
  
  /* Owl Carousel */

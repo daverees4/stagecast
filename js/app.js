@@ -1,5 +1,7 @@
 $(document).foundation();
 
+
+
 flowplayer(function(api){
     $('#chapter1').on('click', function() {
       api.seek(90.5);
@@ -29,5 +31,22 @@ flowplayer(function(api){
 });
 
 $(document).ready(function() {
-  $("#owl-slider").owlCarousel();
+  $(".owl-slider").owlCarousel();
+  $(".top-channel-slider").owlCarousel({
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 300,
+      singleItem:true,
+      autoPlay: 7000,
+      stopOnHover: true,
+      rewindSpeed: 3000,
+      paginationSpeed: 3000
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
 });
