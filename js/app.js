@@ -19,15 +19,20 @@ flowplayer(function(api){
           if(counter!=-1){
             $('.programme-item').removeClass('now-playing');
             $('.chapter:eq('+counter+')').parent().addClass('now-playing');
+            return false
           } else {
             $('.programme-item').removeClass('now-playing');
+              return false
           }
-          return false;
         } else {
           counter=counter+1;
+        }      
+        if (counter==($(".chapter").length-1)) {
+           $('.programme-item').removeClass('now-playing');
+            $('.chapter').last().parent().addClass('now-playing');
+          
         }
-        
-      });
+    });
     })
     
     api.on("cuepoint", function(e) {
@@ -40,12 +45,18 @@ flowplayer(function(api){
           if(counter!=-1){
             $('.programme-item').removeClass('now-playing');
             $('.chapter:eq('+counter+')').parent().addClass('now-playing');
+            return false
           } else {
             $('.programme-item').removeClass('now-playing');
+              return false
           }
-          return false;
         } else {
           counter=counter+1;
+        }      
+        if (counter==($(".chapter").length-1)) {
+           $('.programme-item').removeClass('now-playing');
+            $('.chapter').last().parent().addClass('now-playing');
+          
         }
     });
   })
