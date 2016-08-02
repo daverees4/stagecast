@@ -45,6 +45,14 @@ body {
   margin-bottom: 10px;
 }
 
+.now-playing {
+  background-color: #ffc900;
+}
+
+.now-playing a h5 {
+  color: #101010;
+}
+
 /* Custom Flowplayer skin */
 
 @font-face {

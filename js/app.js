@@ -3,31 +3,52 @@ $(document).foundation();
 
 
 flowplayer(function(api){
-    $('#chapter1').on('click', function() {
-      api.seek(90.5);
+    $('.chapter').on('click', function() {
+      api.seek($(this).data('time'));
+      $('.programme-item').removeClass('now-playing');
+      $(this).parent().addClass('now-playing');
       api.play();
       $("html, body").animate({ scrollTop: 0 }, "slow");
     });
-    $('#chapter2').on('click', function() {
-      api.seek(340);
-      api.play();
-      $("html, body").animate({ scrollTop: 0 }, "slow");
+    
+    api.on("seek", function(e) {
+      var counter=-1;
+      $(".chapter").each(function() {
+      
+        if(api.video.time<$(this).data('time')) {
+          if(counter!=-1){
+            $('.programme-item').removeClass('now-playing');
+            $('.chapter:eq('+counter+')').parent().addClass('now-playing');
+          } else {
+            $('.programme-item').removeClass('now-playing');
+          }
+          return false;
+        } else {
+          counter=counter+1;
+        }
+        
+      });
+    })
+    
+    api.on("cuepoint", function(e) {
+      console.log("checkpoint!");
+      console.log(e);
+            var counter=-1;
+      $(".chapter").each(function() {
+      
+        if(api.video.time<$(this).data('time')) {
+          if(counter!=-1){
+            $('.programme-item').removeClass('now-playing');
+            $('.chapter:eq('+counter+')').parent().addClass('now-playing');
+          } else {
+            $('.programme-item').removeClass('now-playing');
+          }
+          return false;
+        } else {
+          counter=counter+1;
+        }
     });
-    $('#chapter3').on('click', function() {
-      api.seek(526);
-      api.play();
-      $("html, body").animate({ scrollTop: 0 }, "slow");
-    });
-    $('#chapter4').on('click', function() {
-      api.seek(801);
-      api.play();
-      $("html, body").animate({ scrollTop: 0 }, "slow");
-    });
-    $('#chapter5').on('click', function() {
-      api.seek(1023);
-      api.play();
-      $("html, body").animate({ scrollTop: 0 }, "slow");
-    });
+  })
 });
 
 $(document).ready(function() {
